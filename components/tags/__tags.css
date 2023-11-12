@@ -1,0 +1,16 @@
+.tag {
+    background-color: rgba(45,212,191,.1);
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-radius: 2rem;
+    color: var(--color__green);
+    font-size: .75rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.tag__thumb {
+
+}

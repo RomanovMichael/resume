@@ -1,0 +1,46 @@
+
+
+.nav__item {
+    cursor: pointer;
+}
+
+.nav__item-indicator {
+    height: 1px;
+    width: 2rem;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .15s;
+    background-color: rgb(100, 116, 139);
+}
+
+.nav__item-text {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(100, 116, 139);
+    font-size: 0.75rem;
+}
+
+.nav__item:hover .nav__item-text {
+    color: var(--color__white);
+}
+
+.nav__item:hover .nav__item-indicator {
+    background-color: var(--color__white);
+    width: 4rem;
+}
+
+.nav__item.is-active .nav__item-indicator  {
+    background-color: var(--color__white);
+    width: 4rem;
+}
+
+.nav__item.is-active .nav__item-text {
+    color: var(--color__white);
+}
+
+
+@media screen and (max-width:991px) {
+    .nav {
+        display: none;  
+    }
+}

@@ -1,0 +1,68 @@
+
+.header {
+    color: var(--color__white);
+    z-index: 1;
+    flex-shrink: 0;
+    max-height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.header__title {
+    font-weight: 700;
+    color: inherit;
+    font-size: 3rem;
+}
+
+.header__subtitle {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: inherit;
+    margin-top: .75rem;
+}
+
+.header__desc {
+    max-width: 20rem;
+    color: var(--color__white-opacity);
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+.header__download-text {
+    color:var(--color__white);
+    font-weight: 550;
+    border-bottom: 1px solid transparent;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.header__download:hover .header__download-text {
+    border-color: var(--color__green);
+}
+
+.header__download-thumb {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    color: var(--color__white);
+}
+
+.header__download-thumb svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header__download:hover .header__download-thumb {
+    transform: translateX(20%);
+}
+
+
+@media screen and (max-width:991px) {
+    .header {
+        position: relative;
+        padding-bottom: 0 !important;
+    }
+}

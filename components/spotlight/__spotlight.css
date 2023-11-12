@@ -1,0 +1,22 @@
+.spotlight {
+    position: absolute;
+    transition-duration: .3s;
+    transition-property:background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;
+    pointer-events: none;
+    aspect-ratio: 1;
+    position: absolute;
+    height: 32.5rem;
+    width: 32.5rem;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    overflow: visible;
+    background: linear-gradient(to right, rgba(127, 172, 255, 0.139), rgba(1, 25, 209, 0.116));
+}
+
+@media screen and (max-width:991px) { 
+    .spotlight {
+        display: none;
+    }
+}

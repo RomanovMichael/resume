@@ -1,0 +1,26 @@
+.header__socials {
+    gap: 1.25rem;
+}
+
+.header__social {
+    display: block;
+    width: 1.75rem;
+    height: 1.75rem;
+    position: relative;
+    color: var(--color__white-opacity);
+    transition: all .3s ease;
+}
+
+.header__social svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.header__social:hover {
+    transition: all .3s ease;
+    color: var(--color__white);
+}

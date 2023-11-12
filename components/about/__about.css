@@ -1,0 +1,5 @@
+.about p {
+    color: var(--color__white-opacity);
+    margin: 0;
+    font-size: 1.125rem;
+}
