@@ -24,9 +24,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  generate: {
-    dir: 'public_html'
-  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     // 'swiper/swiper-bundle.min.css',
