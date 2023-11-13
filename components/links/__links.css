@@ -1,9 +1,16 @@
+.links__item {
+    flex-wrap: nowrap;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
 .links__item-icon {
     position: relative;
     width: .75rem;
     height: .75rem;
     display: block;
     color: var(--color__white);
+    flex-shrink: 0;
 }
 
 .links__item-icon svg {
@@ -16,6 +23,7 @@
 
 .links__item-text {
     color: var(--color__white);
+    word-break: normal;
 }
 
 .links__item:hover .links__item-text {

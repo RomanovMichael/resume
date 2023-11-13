@@ -4,7 +4,7 @@
       <li>
         <div
           @click="scrollTo('about')"
-          class="nav__item transition-all flex --align-center --gap-16 py-8"
+          class="nav__item transition-all flex --align-center --gap-16"
         >
           <span class="nav__item-indicator transition-all"></span>
           <span class="nav__item-text transition-all">обо мне</span>
@@ -13,7 +13,7 @@
       <li>
         <div
           @click="scrollTo('exp')"
-          class="nav__item transition-all flex --align-center --gap-16 py-8"
+          class="nav__item transition-all flex --align-center --gap-16"
         >
           <span class="nav__item-indicator transition-all"></span>
           <span class="nav__item-text transition-all">опыт</span>
@@ -22,7 +22,7 @@
       <li>
         <div
           @click="scrollTo('projects')"
-          class="nav__item transition-all flex --align-center --gap-16 py-8"
+          class="nav__item transition-all flex --align-center --gap-16"
         >
           <span class="nav__item-indicator transition-all"></span>
           <span class="nav__item-text transition-all">проекты</span>

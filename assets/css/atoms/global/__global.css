@@ -244,6 +244,8 @@ body {
     font-size: 2rem !important;
     line-height: 2.5rem !important;
   }
-
+  html, body {
+    font-size: calc((100vw - 320px) / (1920 - 320) * (16 - 14) + 20px);
+  }
 
 }

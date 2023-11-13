@@ -34,10 +34,12 @@
     border-bottom: 1px solid transparent;
     font-size: .875rem;
     line-height: 1.25rem;
+    opacity: 0.4;
 }
 
 .header__download:hover .header__download-text {
     border-color: var(--color__green);
+    opacity: 1;
 }
 
 .header__download-thumb {
@@ -45,6 +47,7 @@
     width: 1rem;
     height: 1rem;
     color: var(--color__white);
+    opacity: 0.4;
 }
 
 .header__download-thumb svg {
@@ -57,6 +60,7 @@
 
 .header__download:hover .header__download-thumb {
     transform: translateX(20%);
+    opacity: 1;
 }
 
 
@@ -64,5 +68,17 @@
     .header {
         position: relative;
         padding-bottom: 0 !important;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .header__title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .header__subtitle {
+        font-size: 1.125rem;
+        margin-top: 0 !important;
     }
 }

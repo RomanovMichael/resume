@@ -20,28 +20,14 @@
         </div>
         </div>
 
-        <div class="exp__item-content">
+        <div class="exp__item-content projects__item-content">
           <a
             target="_blank"
             v-if="item.name"
             :href="item.name.url"
-            class="exp__item-name transition-all flex --align-end"
+            class="exp__item-name projects__item-name transition-all flex --align-end"
           >
             {{ item.name.title }}
-            <span class="exp__item-name-thumb transition-all">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-            </span>
           </a>
           <p
             class="exp__item-desc mt-8"
@@ -68,14 +54,69 @@ export default {
         {
           id: 1,
           name: {
+            title: "Калькуляция для Remlabs",
+          },
+            image: {
+            size: '--desk',
+            src: '/projects/calc.jpg'
+          },
+          desc: "Автономный калькулятор стоимости натяжных потолков с реактивным расчетом для компании Remlabs. Включены параметры площади, материалов, типов конструкций, основного и доп. освещений.",
+          links: [
+            {
+              text: "Web",
+              url: "https://remlabs.ru/services/stretch-roof/",
+            }
+          ],
+          tags: ["Vue", "SCSS", "PHP"],
+        },
+        {
+          id: 2,
+          term: "Сен 2023 — Наст.",
+          name: {
+            title: "ChatGPT Voice Telegram Bot",
+          },
+            image: {
+            size: '--desk',
+            src: '/projects/gpt-bot.jpg'
+          },
+          desc: "Интеграция СhatGPT API и Telegram API. Телеграм бот обрабатывает сообщения в текстовом и аудио формате. Голосовые сообщения из формата .ogg конвертируются в .mp3, а затем транскрибируются в текст. Аудио сохраняются в файловую систему.",
+          links: [
+            {
+              text: "Code",
+              url: "https://github.com/RomanovMichael/chatGPT-tg-bot",
+            }
+          ],
+          tags: ["Node.js"],
+        },
+        {
+          id: 3,
+          term: "Сен 2023 — Наст.",
+          name: {
+            title: "Гео-отзыв",
+          },
+            image: {
+            size: '--desk',
+            src: '/projects/geo-review.jpg'
+          },
+          desc: "Интерактивное приложение, в котором можно оставить отзыв о любом месте. По клику в любой точке карты открывается балун с формой. После публикации отзыва на карте создается метка со списком всех отзывов по координатам. При изменении масштаба карты метки объединяются в кластеры. Данные хранятся в LocalStorage.",
+          links: [
+            {
+              text: "Code",
+              url: "https://github.com/RomanovMichael/course-javascript/tree/geo-review/projects/geo-review",
+            }
+          ],
+          tags: ["JavaScript", "YMaps"],
+        },
+        {
+          id: 1,
+          name: {
             title: "Surfboard",
-            // url: "https://3owls.ru",
           },
           image: {
             size: '--desk',
             src: '/projects/surfboard.jpg'
           },
-          desc: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
+          desc: "Адаптивный одностраничный сайт компании по продаже досок для серфинга с OPS, кастомным аудиоплеером, слайдерами и аккордеонами.",
           links: [
             {
               text: "Code",
@@ -98,29 +139,10 @@ export default {
           id: 2,
           term: "Сен 2023 — Наст.",
           name: {
-            title: "Geo Review",
-          },
-            image: {
-            size: '--desk',
-            src: '/projects/geo-review.jpg'
-          },
-          desc: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
-          links: [
-            {
-              text: "Code",
-              url: "https://github.com/RomanovMichael/course-javascript/tree/geo-review/projects/geo-review",
-            }
-          ],
-          tags: ["JavaScript", "YMaps"],
-        },
-        {
-          id: 2,
-          term: "Сен 2023 — Наст.",
-          name: {
             title: "Loft-photo",
             url: "https://loftschool.com",
           },
-            desc: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
+            desc: "Мобильное приложение на базе VK. Cвайпай и взаимодействуй с фотографиями друзей. Лайки, комменты и личный кабинет с лентой. Данные хранятся в объекте DB на стороне сервера.",
         image: {
             size: '--mob',
             src: '/projects/loft-photo.jpg'
@@ -128,10 +150,10 @@ export default {
           links: [
             {
               text: "Code",
-              url: "/",
+              url: "https://github.com/RomanovMichael/loft-photo/tree/master/projects/loft-photo",
             }
           ],
-          tags: ["JavaScript"],
+          tags: ["JavaScript", "VK API"],
         },
         {
           id: 2,
@@ -153,47 +175,7 @@ export default {
           ],
           tags: ["JavaScript", "Node.js", "WebSocket"],
         },
-        {
-          id: 2,
-          term: "Сен 2023 — Наст.",
-          name: {
-            title: "ChatGPT Voice Telegram Bot",
-            // url: "https://loftschool.com",
-          },
-            image: {
-            size: '--desk',
-            src: '/projects/gpt-bot.jpg'
-          },
-          desc: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
-          links: [
-            {
-              text: "Code",
-              url: "https://github.com/RomanovMichael/chatGPT-tg-bot",
-            }
-          ],
-          tags: ["Node.js"],
-        },
-        {
-          id: 2,
-          term: "Сен 2023 — Наст.",
-          name: {
-            title: "LoftMovie",
-            url: "https://loftschool.com",
-          },
-            image: {
-            size: '--desk',
-            src: '/projects/loft-movie.jpg'
-          },
-          desc: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
-          links: [
-            {
-              text: "Code",
-              url: "https://github.com/RomanovMichael/LoftMovie",
-            }
-          ],
-          tags: ["React"],
-        },
-        {
+                {
           id: 2,
           term: "Сен 2023 — Наст.",
           name: {
@@ -203,7 +185,7 @@ export default {
             size: '--desk',
             src: '/projects/asia.jpg'
           },
-          desc: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
+          desc: "Ламповый сайт из нескольких страниц со статичным лейаутом в рамках обучения.",
           links: [
             {
               text: "Code",
@@ -218,22 +200,42 @@ export default {
         },
         {
           id: 2,
+          term: "Сен 2023 — Наст.",
           name: {
-            title: "Расчет стоимости",
-            // url: "https://loftschool.com",
+            title: "LoftMovie",
+            url: "https://loftschool.com",
           },
             image: {
             size: '--desk',
-            src: '/projects/calc.jpg'
+            src: '/projects/loft-movie.jpg'
           },
-          desc: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
+          desc: "Cервис поиска информации о любимых фильмах и актерах в двух цветовых темах. По запросу возвращает списки релевантных актеров и фильмов. Просмотр полной информации на детальной странице. Добавление в избранное.",
+          links: [
+            {
+              text: "Code",
+              url: "https://github.com/RomanovMichael/LoftMovie",
+            }
+          ],
+          tags: ["React"],
+        },
+
+        {
+          id: 2,
+          name: {
+            title: "Квиз для k-lestnica",
+          },
+            image: {
+            size: '--desk',
+            src: '/projects/kitch.jpg'
+          },
+          desc: "Пошаговый квиз для расчета стоимости изготовления кухонь на заказ с учетом материала и стиля комплектующих.",
           links: [
             {
               text: "Web",
-              url: "https://remlabs.ru/services/stretch-roof/",
+              url: "https://k-lestnica.ru/izgotovlenie-kukhon.html",
             }
           ],
-          tags: ["Vue", "SCSS", "PHP"],
+          tags: ["CSS", "PHP"],
         },
       ],
     };

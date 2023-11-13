@@ -80,8 +80,9 @@
     color: var(--color__white-opacity);
     font-size: 0.875rem;
     line-height: 1.25rem;
+    max-width: 90%;
 }
-
+/* .exp__item-desc */
 @media screen and (max-width:640px) {
     .exp__item {
         position: relative;
@@ -96,5 +97,29 @@
 
     .exp__item-content {
         grid-column:unset;
+        /* margin-top: 1rem; */
+    }
+
+    .exp__item-desc {
+        max-width: 100%;
+        margin-top: 1rem !important;
+    }
+
+    .exp__item-links {
+        margin-top: 1rem !important;
+    }
+
+    .exp__item-tags {
+        margin-top: 1.125rem !important;
+    }
+
+    .exp__list:has(> :hover) .exp__item:not(:hover) {
+        opacity: 1;
+    }
+
+    .exp__item:hover {
+        filter: none;
+        box-shadow: none;
+        background-color: transparent;
     }
 }

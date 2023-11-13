@@ -5,14 +5,11 @@
     <div class="header__side --top">
       <a href="/" class="header__title">Миша Романов</a>
       <h2 class="header__subtitle">Frontend разработчик</h2>
-      <p class="header__desc mt-16">
+      <!-- <p class="header__desc mt-16">
         I build accessible, inclusive products and digital experiences for the
         web.
-      </p>
-      <Nav class="header__nav" />
-    </div>
-    <div class="header__side --bott">
-      <a
+      </p> -->
+            <a
         href="#"
         target="_blank"
         class="header__download flex --align-center --gap-4 mt-16"
@@ -34,6 +31,9 @@
           </svg>
         </span>
       </a>
+      <Nav class="header__nav" />
+    </div>
+    <div class="header__side --bott">
       <Socials class="mt-24" />
     </div>
   </header>

@@ -13,7 +13,7 @@
 .projects__item-gall-image {
     position: relative;
     overflow: hidden;
-    padding-bottom: 61%;
+    padding-bottom: 55%;
 }
 
 .projects__item-gall-image img {
@@ -34,4 +34,15 @@
 }
 .projects__item-gal-wrap.--mob .image-thumb {
     padding-bottom: 208%;
+}
+
+.exp__item-name.projects__item-name {
+    pointer-events: none;
+}
+
+@media  screen and (max-width:620px) {
+
+    .projects__item-content {
+        margin-top: 1rem !important;
+    }
 }

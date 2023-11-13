@@ -37,7 +37,7 @@ export default {
                         title: 'Web-разработчик · 3owls',
                         url: 'https://3owls.ru'
                     },
-                    desc: 'Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.',
+                    desc: 'Разработка лендингов и многостраничных сайтов.  <br>Поддержка существующих проектов.  Взаимодействие с другими командами. Реализация встраиваемых микроприложений и виджетов.',
                     links: [
                         {
                             text: 'chessclub.ae',
@@ -50,22 +50,18 @@ export default {
                         {
                             text: 'pt.premiumholding.com',
                             url: 'https://pt.premiumholding.com/'
-                        },
-                        {
-                            text: 'remlabs.ru',
-                            url: 'https://remlabs.ru'
-                        },
+                        }
                     ],
-                    tags: ['JavaScript', 'Vue', 'SCSS', 'Nuxt', 'Jquery', 'PHP', 'Bitrix']
+                    tags: ['JavaScript', 'Vue', 'SCSS', 'Nuxt', 'jQuery', 'PHP', 'Bitrix']
                 },
                 {
                     id: 2,
                     term: 'Сен 2023 — Наст.',
                     name: {
-                        title: 'Наставник на курсе JavaScript · Loftschool',
+                        title: 'Наставник · Loftschool',
                         url: 'https://loftschool.com'
                     },
-                    desc: 'Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.',
+                    desc: 'Объясняя другим, лучше понимаешь сам. Счастье - помогать людям, закрепляя знания и прокачивая навыки.',
                     links: [
                         {
                             text: 'Истории выпускников LoftSchool | Михаил Романов',
