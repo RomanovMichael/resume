@@ -1,7 +1,7 @@
 .links__item {
     flex-wrap: nowrap;
     margin-right: 1rem;
-    margin-top: 1rem;
+    margin-top: 0.25rem;
 }
 
 .links__item-icon {
