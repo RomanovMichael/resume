@@ -38,20 +38,20 @@ export default {
                         url: 'https://3owls.ru'
                     },
                     desc: 'Разработка лендингов и многостраничных сайтов.  <br>Поддержка существующих проектов.  Взаимодействие с другими командами. Реализация встраиваемых микроприложений и виджетов.',
-                    links: [
-                        {
-                            text: 'chessclub.ae',
-                            url: 'https://chessclub.ae'
-                        },
-                        {
-                            text: 'paradiso-pure.com',
-                            url: 'https://paradiso-pure.com/'
-                        },
-                        {
-                            text: 'pt.premiumholding.com',
-                            url: 'https://pt.premiumholding.com/'
-                        }
-                    ],
+                    // links: [
+                    //     {
+                    //         text: 'chessclub.ae',
+                    //         url: 'https://chessclub.ae'
+                    //     },
+                    //     {
+                    //         text: 'paradiso-pure.com',
+                    //         url: 'https://paradiso-pure.com/'
+                    //     },
+                    //     {
+                    //         text: 'pt.premiumholding.com',
+                    //         url: 'https://pt.premiumholding.com/'
+                    //     }
+                    // ],
                     tags: ['JavaScript', 'Vue', 'SCSS', 'Nuxt', 'jQuery', 'PHP', 'Bitrix']
                 },
                 {

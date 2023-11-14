@@ -9,7 +9,7 @@
         I build accessible, inclusive products and digital experiences for the
         web.
       </p> -->
-            <a
+      <a
         href="#"
         target="_blank"
         class="header__download flex --align-center --gap-4 mt-16"
