@@ -54,6 +54,24 @@ export default {
         {
           id: 1,
           name: {
+            title: "Верстка для Chess Club Dubai",
+          },
+            image: {
+            size: '--desk',
+            src: '/projects/chss.jpg'
+          },
+          desc: "12-и колоночная верстка по дизайн-макетам Figma. Формирование структур данных о курсах и их вывод в компонентах.",
+          links: [
+            {
+              text: "Web",
+              url: "https://chessclub.ae",
+            }
+          ],
+          tags: ["Nuxt", "SCSS", "Grid"],
+        },
+        {
+          id: 1,
+          name: {
             title: "Калькуляция для Remlabs",
           },
             image: {
