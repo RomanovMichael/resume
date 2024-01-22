@@ -51,6 +51,24 @@ export default {
   data() {
     return {
       projectsArr: [
+           {
+          id: 2,
+          name: {
+            title: "Landing Page для мастера перманентного макияжа",
+          },
+            image: {
+            size: '--desk',
+            src: '/projects/nataleebrows.png'
+          },
+          desc: "Разработал дизайн и сверстал лендинг. Приправил анимациями и прелоадерами на Green Socks",
+          links: [
+            {
+              text: "Web",
+              url: "https://nataleeromanova.vercel.app/",
+            },
+          ],
+          tags: ["Design", "Nuxt", "GSAP"],
+        },
         {
           id: 1,
           name: {
@@ -124,6 +142,28 @@ export default {
             }
           ],
           tags: ["JavaScript", "YMaps"],
+        },
+        {
+          id: 2,
+          name: {
+            title: "ByCars - Авто c пробегом",
+          },
+            image: {
+            size: '--desk',
+            src: '/projects/100up.png'
+          },
+          desc: "Тестовый кейс, в рамках которого осваивал концепии бутстрап сеток, попапов, компонентов.",
+          links: [
+            {
+              text: "Code",
+              url: "https://github.com/RomanovMichael/test-task-100up",
+            },
+            {
+              text: "Web",
+              url: "https://romanovmichael.github.io/test-task-100up/",
+            },
+          ],
+          tags: ["SCSS", "JavaScript", "Swiper", "FancyBox", "Bootstrap", "Mobile First"],
         },
         {
           id: 1,
@@ -236,7 +276,6 @@ export default {
           ],
           tags: ["React"],
         },
-
         {
           id: 2,
           name: {

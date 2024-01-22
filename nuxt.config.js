@@ -10,7 +10,7 @@ export default {
     port: 5555
   },
   head: {
-    title: 'resume',
+    title: 'Michael Romanov',
     htmlAttrs: {
       lang: 'en'
     },
