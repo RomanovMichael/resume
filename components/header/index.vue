@@ -10,7 +10,7 @@
         web.
       </p> -->
       <a
-        href="https://docs.google.com/document/d/1npCh1UKqTRAHlgrQcf2n-OlVaRKDHYBVCqD0kX4NeZ8/view"
+        href="https://drive.google.com/file/d/13k46G0f3aeI4iHbwmOft-LzBbsMUyORb/view?usp=sharing"
         target="_blank"
         class="header__download flex --align-center --gap-4 mt-16"
       >
